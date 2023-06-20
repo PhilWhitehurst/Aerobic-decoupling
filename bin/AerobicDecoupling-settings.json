@@ -1,0 +1,70 @@
+{
+  "settings": [
+    {
+      "key": "warmupDuration",
+      "valueType": "number",
+      "defaultValue": 1,
+      "configTitle": "$literal0$",
+      "configPrompt": "$literal1$",
+      "configType": "numeric",
+      "configError": "$literal2$",
+      "configHelpUrl": null,
+      "configReadonly": false,
+      "configRequired": false,
+      "configOptions": null,
+      "configMin": null,
+      "configMax": null,
+      "configMaxLength": null
+    },
+    {
+      "key": "aerobicBaselineDuration",
+      "valueType": "number",
+      "defaultValue": 1,
+      "configTitle": "$literal3$",
+      "configPrompt": "$literal4$",
+      "configType": "numeric",
+      "configError": "$literal5$",
+      "configHelpUrl": null,
+      "configReadonly": false,
+      "configRequired": false,
+      "configOptions": null,
+      "configMin": null,
+      "configMax": null,
+      "configMaxLength": null
+    },
+    {
+      "key": "smoothingFactor",
+      "valueType": "double",
+      "defaultValue": 0.8,
+      "configTitle": "$literal6$",
+      "configPrompt": "$literal7$",
+      "configType": "numeric",
+      "configError": "$literal8$",
+      "configHelpUrl": null,
+      "configReadonly": false,
+      "configRequired": false,
+      "configOptions": null,
+      "configMin": null,
+      "configMax": null,
+      "configMaxLength": null
+    }
+  ],
+  "supportsLiveValidation": false,
+  "languages": {
+    "valyrian": {
+      "AppName": "Aerobic Decoupling",
+      "$literal1$": "Duration of warm up period",
+      "$literal0$": "Warm up duration",
+      "$literal3$": "Aerobic baseline duration",
+      "$literal2$": "Please enter an integer duration in minutes",
+      "$literal5$": "Please enter integer duration in minutes",
+      "$literal4$": "Duration over which to measure your aerobic baseline",
+      "$literal7$": "Used to smooth the change in decoupling",
+      "decoupling_title": "Aerobic Decoupling",
+      "$literal6$": "Decoupling smoothing factor",
+      "decoupling_label": "Decoupling",
+      "$literal8$": "Please enter a postive number",
+      "decoupling_units": "%"
+    }
+  }
+}

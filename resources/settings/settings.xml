@@ -1,0 +1,18 @@
+<settings>
+
+   
+
+    <setting propertyKey="@Properties.warmupDuration" title="Warm up duration" prompt="Duration of warm up period">
+        <settingConfig type="numeric" errorMessage="Please enter an integer duration in minutes" />
+    </setting>
+
+    <setting propertyKey="@Properties.aerobicBaselineDuration" title="Aerobic baseline duration" prompt="Duration over which to measure your aerobic baseline">
+        <settingConfig type="numeric" errorMessage="Please enter integer duration in minutes" />
+    </setting>
+
+    <setting propertyKey="@Properties.smoothingFactor" title="Decoupling smoothing factor" prompt="Used to smooth the change in decoupling">
+        <settingConfig type="numeric" errorMessage="Please enter a postive number between 0 and 1" />
+    </setting>
+     
+
+</settings>

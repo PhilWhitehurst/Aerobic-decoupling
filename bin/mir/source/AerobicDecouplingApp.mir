@@ -1,0 +1,57 @@
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 8; ]
+class AerobicDecouplingApp extends Application.AppBase{
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 10; ]
+    function initialize() as Void {
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_10_26_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc" 11 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_10_26_stop:
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 17; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 28; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 32; ]
+    function getInitialView() as Array<Views or InputDelegates> or Null {
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_32_65_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc" 33 8 ]
+        %tmp.1 = newa Array<Views or InputDelegates> 1;
+        %tmp.5 = getv ? :AerobicDecouplingView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_32_65_stop:
+    }
+}
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 38; ]
+function getApp() as AerobicDecouplingApp {
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_38_42_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc" 39 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 AerobicDecouplingApp;
+    ret %tmp.4;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_38_42_stop:
+}
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 1; ]
+<init> {
+}

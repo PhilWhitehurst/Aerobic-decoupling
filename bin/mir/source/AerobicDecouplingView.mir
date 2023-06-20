@@ -1,0 +1,586 @@
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 3; ]
+import Toybox.Math;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 4; ]
+import Toybox.Time;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 5; ]
+import Toybox.WatchUi;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 6; ]
+import Toybox.Application;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 9; ]
+class AerobicDecouplingView extends WatchUi.SimpleDataField{
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 9; ]
+    <init> {
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 11 8 ]
+        %tmp.2 = getv ? :Properties;
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "warmupDuration";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = 60000;
+        %tmp.7 = mul %tmp.5 %tmp.6;
+        putv self :warmupDuration %tmp.7;
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 12 8 ]
+        %tmp.9 = getv ? :Properties;
+        %tmp.10 = getv function %tmp.9 :getValue;
+        %tmp.11 = "aerobicBaselineDuration";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        %tmp.13 = 60000;
+        %tmp.14 = mul %tmp.12 %tmp.13;
+        putv self :aerobicBaselineDuration %tmp.14;
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 13 8 ]
+        %tmp.16 = getv ? :Properties;
+        %tmp.17 = getv function %tmp.16 :getValue;
+        %tmp.18 = "aerobicBaselineDuration";
+        %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
+        %tmp.20 = 60;
+        %tmp.21 = mul %tmp.19 %tmp.20;
+        putv self :aerobicBaselineDurationSeconds %tmp.21;
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 15 8 ]
+        %tmp.22 = 1.00;
+        %tmp.24 = getv ? :Properties;
+        %tmp.25 = getv function %tmp.24 :getValue;
+        %tmp.26 = "aerobicBaselineDuration";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        %tmp.28 = 60;
+        %tmp.29 = mul %tmp.27 %tmp.28;
+        %tmp.30 = div %tmp.22 %tmp.29;
+        putv self :exponentialSmoothingFactor %tmp.30;
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 17 8 ]
+        %tmp.32 = getv ? :exponentialSmoothingFactor;
+        %tmp.34 = getv ? :Properties;
+        %tmp.35 = getv function %tmp.34 :getValue;
+        %tmp.36 = "smoothingFactor";
+        %tmp.37 = invoke %tmp.34 %tmp.35(%tmp.36);
+        %tmp.38 = mul %tmp.32 %tmp.37;
+        putv self :doubleExponentialSmoothingFactor %tmp.38;
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 9; ]
+    static
+    <init> {
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 11; @position = 8; ]
+    var warmupDuration;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 12; @position = 8; ]
+    var aerobicBaselineDuration;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 13; @position = 8; ]
+    var aerobicBaselineDurationSeconds;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 15; @position = 8; ]
+    var exponentialSmoothingFactor;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 17; @position = 8; ]
+    var doubleExponentialSmoothingFactor;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 19; @position = 8; ]
+    var heartRate30s = null;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 20; @position = 8; ]
+    var heartRate30sMean = null;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 21; @position = 8; ]
+    var meanHeartRate = null;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 26; @position = 8; ]
+    var power30s = null;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 27; @position = 8; ]
+    var meanPowerTo4thPower = null;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 28; @position = 8; ]
+    var meanPowerTo4thPowerCount = 0;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 32; @position = 8; ]
+    var baselineAerobicEfficiency = null;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 33; @position = 8; ]
+    var aerobicDecoupling = 0.0;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 34; @position = 8; ]
+    var field = null;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 36; @position = 8; ]
+    var normalisedPower = null;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 38; @position = 8; ]
+    var aerobicEfficiency = null;
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 45; ]
+    function initialize() as Void {
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_45_26_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 46 8 ]
+        %tmp.2 = getv ? :SimpleDataField;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 47 8 ]
+        %tmp.4 = "Decoupling";
+        putv self :label %tmp.4;
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 48 9 ]
+        %tmp.5 = self;
+        %tmp.6 = getv function %tmp.5 :createField;
+        %tmp.7 = "aerobicDecoupling";
+        %tmp.8 = 0;
+        %tmp.10 = getv ? :FitContributor;
+        %tmp.11 = getv %tmp.10 :DATA_TYPE_FLOAT;
+        %tmp.12 = newd 1;
+        %tmp.14 = const :mesgType;
+        %tmp.16 = getv ? :FitContributor;
+        %tmp.17 = getv %tmp.16 :MESG_TYPE_RECORD;
+        %tmp.18 = dup %tmp.12;
+        %tmp.19 = aputv %tmp.18 %tmp.14 %tmp.17;
+        %tmp.20 = invoke %tmp.5 %tmp.6(%tmp.7, %tmp.8, %tmp.11, %tmp.19);
+        putv self :field %tmp.20;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_45_26_stop:
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 55; ]
+    function compute(info as Activity.Info) as Numeric or Duration or String or Null {
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_55_85_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 60 8 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_60_8_if_stmt:
+        %tmp.1 = lgetv %info;
+        %tmp.2 = getv %tmp.1 :currentHeartRate;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_60_8_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_60_8_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_60_43_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 61 17 ]
+        %tmp.5 = "no heart rate!";
+        ret %tmp.5;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_60_43_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_60_8_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_60_8_if_end:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 64 8 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_64_8_if_stmt:
+        %tmp.6 = lgetv %info;
+        %tmp.7 = getv %tmp.6 :currentPower;
+        %tmp.8 = null;
+        %tmp.9 = eq %tmp.7 %tmp.8;
+        bf %tmp.9 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_64_8_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_64_8_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_64_39_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 65 16 ]
+        %tmp.10 = "no power data!";
+        ret %tmp.10;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_64_39_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_64_8_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_64_8_if_end:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 69 8 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_69_8_if_stmt:
+        %tmp.11 = lgetv %info;
+        %tmp.12 = getv %tmp.11 :elapsedTime;
+        %tmp.14 = getv ? :warmupDuration;
+        %tmp.15 = lt %tmp.12 %tmp.14;
+        bf %tmp.15 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_69_8_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_69_8_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_69_47_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 70 12 ]
+        %tmp.17 = getv ? :field;
+        %tmp.18 = getv function %tmp.17 :setData;
+        %tmp.19 = 0;
+        invoke %tmp.17 %tmp.18(%tmp.19);
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 71 12 ]
+        %tmp.20 = "warm up";
+        ret %tmp.20;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_69_47_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_69_8_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_69_8_if_end:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 76 8 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_76_8_if_stmt:
+        %tmp.21 = lgetv %info;
+        %tmp.22 = getv %tmp.21 :currentHeartRate;
+        %tmp.23 = null;
+        %tmp.24 = ne %tmp.22 %tmp.23;
+        bf %tmp.24 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_76_8_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_76_8_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_76_43_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 77 12 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_77_12_if_stmt:
+        %tmp.26 = getv ? :heartRate30s;
+        %tmp.27 = null;
+        %tmp.28 = eq %tmp.26 %tmp.27;
+        bf %tmp.28 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_77_12_if_false;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_77_12_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_77_38_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 78 14 ]
+        %tmp.29 = newa 1;
+        %tmp.30 = lgetv %info;
+        %tmp.31 = getv %tmp.30 :currentHeartRate;
+        %tmp.32 = dup %tmp.29;
+        %tmp.33 = aputv %tmp.32 0 %tmp.31;
+        putv self :heartRate30s %tmp.33;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_77_38_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_77_12_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_77_12_if_false:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_80_15_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 81 11 ]
+        %tmp.35 = getv ? :heartRate30s;
+        %tmp.36 = as %tmp.35 { (!Null) };
+        %tmp.37 = getv function %tmp.36 :add;
+        %tmp.38 = lgetv %info;
+        %tmp.39 = getv %tmp.38 :currentHeartRate;
+        invoke %tmp.36 %tmp.37(%tmp.39);
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 82 14 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_82_14_if_stmt:
+        %tmp.41 = getv ? :heartRate30s;
+        %tmp.42 = getv function %tmp.41 :size;
+        %tmp.43 = invoke %tmp.41 %tmp.42();
+        %tmp.44 = 30;
+        %tmp.45 = eq %tmp.43 %tmp.44;
+        bf %tmp.45 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_82_14_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_82_14_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_82_45_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 85 14 ]
+        [ "E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_82_45_start" "E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_82_45_stop" ]
+        %heartRate30sMean.1 = local;
+        %tmp.46 = getm $.Toybox.Math;
+        %tmp.47 = getv function %tmp.46 :mean;
+        %tmp.49 = getv ? :heartRate30s;
+        %tmp.50 = invoke %tmp.46 %tmp.47(%tmp.49);
+        lputv %heartRate30sMean.1 %tmp.50;
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 88 14 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_88_14_if_stmt:
+        %tmp.52 = getv ? :meanHeartRate;
+        %tmp.53 = null;
+        %tmp.54 = eq %tmp.52 %tmp.53;
+        bf %tmp.54 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_88_14_if_false;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_88_14_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_88_41_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 89 16 ]
+        %tmp.56 = lgetv %heartRate30sMean.1;
+        putv self :meanHeartRate %tmp.56;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_88_41_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_88_14_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_88_14_if_false:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_91_21_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 94 17 ]
+        %tmp.57 = 1;
+        %tmp.59 = getv ? :exponentialSmoothingFactor;
+        %tmp.60 = sub %tmp.57 %tmp.59;
+        %tmp.62 = getv ? :meanHeartRate;
+        %tmp.63 = as %tmp.62 { (!Null) };
+        %tmp.64 = mul %tmp.60 %tmp.63;
+        %tmp.66 = getv ? :exponentialSmoothingFactor;
+        %tmp.68 = lgetv %heartRate30sMean.1;
+        %tmp.69 = mul %tmp.66 %tmp.68;
+        %tmp.70 = add %tmp.64 %tmp.69;
+        putv self :meanHeartRate %tmp.70;
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 96 17 ]
+        %tmp.72 = getv ? :System;
+        %tmp.73 = getv function %tmp.72 :println;
+        %tmp.75 = getv ? :exponentialSmoothingFactor;
+        invoke %tmp.72 %tmp.73(%tmp.75);
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 97 17 ]
+        %tmp.77 = getv ? :System;
+        %tmp.78 = getv function %tmp.77 :println;
+        %tmp.79 = "mean heart rate  ";
+        %tmp.81 = getv ? :meanHeartRate;
+        %tmp.82 = add %tmp.79 %tmp.81;
+        %tmp.83 = " ";
+        %tmp.84 = add %tmp.82 %tmp.83;
+        %tmp.86 = lgetv %heartRate30sMean.1;
+        %tmp.87 = add %tmp.84 %tmp.86;
+        invoke %tmp.77 %tmp.78(%tmp.87);
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_91_21_stop:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_88_14_if_end:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 103 15 ]
+        %tmp.89 = getv ? :heartRate30s;
+        %tmp.90 = getv function %tmp.89 :slice;
+        %tmp.91 = 1;
+        %tmp.92 = null;
+        %tmp.93 = invoke %tmp.89 %tmp.90(%tmp.91, %tmp.92);
+        putv self :heartRate30s %tmp.93;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_82_45_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_82_14_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_82_14_if_end:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_80_15_stop:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_77_12_if_end:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 114 8 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_114_8_if_stmt:
+        %tmp.94 = lgetv %info;
+        %tmp.95 = getv %tmp.94 :currentPower;
+        %tmp.96 = null;
+        %tmp.97 = ne %tmp.95 %tmp.96;
+        bf %tmp.97 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_114_8_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_114_8_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_114_39_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 115 12 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_115_12_if_stmt:
+        %tmp.99 = getv ? :power30s;
+        %tmp.100 = null;
+        %tmp.101 = eq %tmp.99 %tmp.100;
+        bf %tmp.101 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_115_12_if_false;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_115_12_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_115_34_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 116 14 ]
+        %tmp.102 = newa 1;
+        %tmp.103 = lgetv %info;
+        %tmp.104 = getv %tmp.103 :currentPower;
+        %tmp.105 = dup %tmp.102;
+        %tmp.106 = aputv %tmp.105 0 %tmp.104;
+        putv self :power30s %tmp.106;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_115_34_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_115_12_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_115_12_if_false:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_117_19_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 118 14 ]
+        %tmp.108 = getv ? :power30s;
+        %tmp.109 = as %tmp.108 { (!Null) };
+        %tmp.110 = getv function %tmp.109 :add;
+        %tmp.111 = lgetv %info;
+        %tmp.112 = getv %tmp.111 :currentPower;
+        invoke %tmp.109 %tmp.110(%tmp.112);
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 120 14 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_120_14_if_stmt:
+        %tmp.114 = getv ? :power30s;
+        %tmp.115 = getv function %tmp.114 :size;
+        %tmp.116 = invoke %tmp.114 %tmp.115();
+        %tmp.117 = 30;
+        %tmp.118 = eq %tmp.116 %tmp.117;
+        bf %tmp.118 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_120_14_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_120_14_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_120_41_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 123 14 ]
+        [ "E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_120_41_start" "E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_120_41_stop" ]
+        %power30sMean.2 = local;
+        %tmp.119 = getm $.Toybox.Math;
+        %tmp.120 = getv function %tmp.119 :mean;
+        %tmp.122 = getv ? :power30s;
+        %tmp.123 = invoke %tmp.119 %tmp.120(%tmp.122);
+        lputv %power30sMean.2 %tmp.123;
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 124 14 ]
+        [ "E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_120_41_start" "E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_120_41_stop" ]
+        %power30sMeanTo4thPower.3 = local;
+        %tmp.124 = getm $.Toybox.Math;
+        %tmp.125 = getv function %tmp.124 :pow;
+        %tmp.127 = lgetv %power30sMean.2;
+        %tmp.128 = 4;
+        %tmp.129 = invoke %tmp.124 %tmp.125(%tmp.127, %tmp.128);
+        lputv %power30sMeanTo4thPower.3 %tmp.129;
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 127 14 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_127_14_if_stmt:
+        %tmp.131 = getv ? :meanPowerTo4thPower;
+        %tmp.132 = null;
+        %tmp.133 = eq %tmp.131 %tmp.132;
+        bf %tmp.133 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_127_14_if_false;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_127_14_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_127_47_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 128 16 ]
+        %tmp.135 = lgetv %power30sMeanTo4thPower.3;
+        putv self :meanPowerTo4thPower %tmp.135;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_127_47_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_127_14_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_127_14_if_false:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_132_21_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 135 17 ]
+        %tmp.136 = 1;
+        %tmp.138 = getv ? :exponentialSmoothingFactor;
+        %tmp.139 = sub %tmp.136 %tmp.138;
+        %tmp.141 = getv ? :meanPowerTo4thPower;
+        %tmp.142 = as %tmp.141 { (!Null) };
+        %tmp.143 = mul %tmp.139 %tmp.142;
+        %tmp.145 = getv ? :exponentialSmoothingFactor;
+        %tmp.147 = lgetv %power30sMeanTo4thPower.3;
+        %tmp.148 = mul %tmp.145 %tmp.147;
+        %tmp.149 = add %tmp.143 %tmp.148;
+        putv self :meanPowerTo4thPower %tmp.149;
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 137 17 ]
+        %tmp.151 = getv ? :System;
+        %tmp.152 = getv function %tmp.151 :println;
+        %tmp.153 = "meanPower ";
+        %tmp.155 = getv ? :meanPowerTo4thPower;
+        %tmp.156 = add %tmp.153 %tmp.155;
+        invoke %tmp.151 %tmp.152(%tmp.156);
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_132_21_stop:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_127_14_if_end:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 143 15 ]
+        %tmp.158 = getv ? :power30s;
+        %tmp.159 = getv function %tmp.158 :slice;
+        %tmp.160 = 1;
+        %tmp.161 = null;
+        %tmp.162 = invoke %tmp.158 %tmp.159(%tmp.160, %tmp.161);
+        putv self :power30s %tmp.162;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_120_41_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_120_14_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_120_14_if_end:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_117_19_stop:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_115_12_if_end:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 150 8 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_150_8_if_stmt:
+        %tmp.163 = lgetv %info;
+        %tmp.164 = getv %tmp.163 :elapsedTime;
+        %tmp.166 = getv ? :warmupDuration;
+        %tmp.168 = getv ? :aerobicBaselineDuration;
+        %tmp.169 = add %tmp.166 %tmp.168;
+        %tmp.170 = lt %tmp.164 %tmp.169;
+        bf %tmp.170 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_150_8_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_150_8_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_151_8_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 152 10 ]
+        %tmp.172 = getv ? :field;
+        %tmp.173 = getv function %tmp.172 :setData;
+        %tmp.174 = 0;
+        invoke %tmp.172 %tmp.173(%tmp.174);
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 153 10 ]
+        %tmp.175 = "baseline";
+        ret %tmp.175;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_151_8_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_150_8_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_150_8_if_end:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 160 12 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_160_12_if_stmt:
+        %tmp.176 = lgetv %info;
+        %tmp.177 = getv %tmp.176 :elapsedTime;
+        %tmp.179 = getv ? :warmupDuration;
+        %tmp.181 = getv ? :aerobicBaselineDuration;
+        %tmp.182 = add %tmp.179 %tmp.181;
+        %tmp.183 = gte %tmp.177 %tmp.182;
+        bf %tmp.183 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_160_12_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_160_12_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_160_78_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 168 15 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_168_15_if_stmt:
+        %tmp.185 = getv ? :meanPowerTo4thPower;
+        %tmp.186 = null;
+        %tmp.187 = ne %tmp.185 %tmp.186;
+        bf %tmp.187 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_168_15_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_168_15_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_168_48_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 170 17 ]
+        %tmp.188 = getm $.Toybox.Math;
+        %tmp.189 = getv function %tmp.188 :pow;
+        %tmp.191 = getv ? :meanPowerTo4thPower;
+        %tmp.192 = as %tmp.191 { (!Null) };
+        %tmp.193 = 0.25;
+        %tmp.194 = invoke %tmp.188 %tmp.189(%tmp.192, %tmp.193);
+        putv self :normalisedPower %tmp.194;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_168_48_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_168_15_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_168_15_if_end:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 178 15 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_178_15_if_stmt:
+        %tmp.196 = getv ? :normalisedPower;
+        %tmp.197 = null;
+        %tmp.198 = ne %tmp.196 %tmp.197;
+        bf %tmp.198 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_178_15_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_178_15_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_178_45_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 180 16 ]
+        %tmp.200 = getv ? :System;
+        %tmp.201 = getv function %tmp.200 :println;
+        %tmp.202 = "normalisedPower ";
+        %tmp.204 = getv ? :normalisedPower;
+        %tmp.205 = as %tmp.204 { (!Null) };
+        %tmp.206 = add %tmp.202 %tmp.205;
+        %tmp.207 = " HR ";
+        %tmp.208 = add %tmp.206 %tmp.207;
+        %tmp.210 = getv ? :meanHeartRate;
+        %tmp.211 = add %tmp.208 %tmp.210;
+        invoke %tmp.200 %tmp.201(%tmp.211);
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 182 16 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_182_16_if_stmt:
+        %tmp.213 = getv ? :aerobicEfficiency;
+        %tmp.214 = null;
+        %tmp.215 = ne %tmp.213 %tmp.214;
+        bf %tmp.215 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_182_16_if_false;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_182_16_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_182_47_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 183 18 ]
+        %tmp.217 = getv ? :doubleExponentialSmoothingFactor;
+        %tmp.219 = getv ? :normalisedPower;
+        %tmp.220 = mul %tmp.217 %tmp.219;
+        %tmp.222 = getv ? :meanHeartRate;
+        %tmp.223 = div %tmp.220 %tmp.222;
+        %tmp.224 = 1;
+        %tmp.226 = getv ? :doubleExponentialSmoothingFactor;
+        %tmp.227 = sub %tmp.224 %tmp.226;
+        %tmp.229 = getv ? :aerobicEfficiency;
+        %tmp.230 = as %tmp.229 { (!Null) };
+        %tmp.231 = mul %tmp.227 %tmp.230;
+        %tmp.232 = add %tmp.223 %tmp.231;
+        putv self :aerobicEfficiency %tmp.232;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_182_47_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_182_16_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_182_16_if_false:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_185_23_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 186 18 ]
+        %tmp.234 = getv ? :normalisedPower;
+        %tmp.236 = getv ? :meanHeartRate;
+        %tmp.237 = div %tmp.234 %tmp.236;
+        putv self :aerobicEfficiency %tmp.237;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_185_23_stop:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_182_16_if_end:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_178_45_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_178_15_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_178_15_if_end:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 192 15 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_192_15_if_stmt:
+        %tmp.239 = getv ? :baselineAerobicEfficiency;
+        %tmp.240 = null;
+        %tmp.241 = eq %tmp.239 %tmp.240;
+        bf %tmp.241 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_192_15_if_false;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_192_15_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_192_54_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 193 20 ]
+        %tmp.243 = getv ? :aerobicEfficiency;
+        putv self :baselineAerobicEfficiency %tmp.243;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_192_54_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_192_15_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_192_15_if_false:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_195_23_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 196 20 ]
+        %tmp.245 = getv ? :baselineAerobicEfficiency;
+        %tmp.246 = as %tmp.245 { (!Null) };
+        %tmp.248 = getv ? :aerobicEfficiency;
+        %tmp.249 = sub %tmp.246 %tmp.248;
+        %tmp.251 = getv ? :baselineAerobicEfficiency;
+        %tmp.252 = as %tmp.251 { (!Null) };
+        %tmp.253 = div %tmp.249 %tmp.252;
+        %tmp.254 = 100;
+        %tmp.255 = mul %tmp.253 %tmp.254;
+        putv self :aerobicDecoupling %tmp.255;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_195_23_stop:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_192_15_if_end:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_160_78_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_160_12_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_160_12_if_end:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_114_39_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_114_8_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_114_8_if_end:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_76_43_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_76_8_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_76_8_if_end:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 209 6 ]
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_209_6_if_stmt:
+        %tmp.257 = getv ? :normalisedPower;
+        %tmp.258 = null;
+        %tmp.259 = ne %tmp.257 %tmp.258;
+        bf %tmp.259 @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_209_6_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_209_6_if_true:
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_209_35_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 210 8 ]
+        %tmp.261 = getv ? :System;
+        %tmp.262 = getv function %tmp.261 :println;
+        %tmp.263 = "normalisedPower ";
+        %tmp.265 = getv ? :normalisedPower;
+        %tmp.266 = as %tmp.265 { (!Null) };
+        %tmp.267 = add %tmp.263 %tmp.266;
+        %tmp.268 = " HR ";
+        %tmp.269 = add %tmp.267 %tmp.268;
+        %tmp.271 = getv ? :meanHeartRate;
+        %tmp.272 = add %tmp.269 %tmp.271;
+        %tmp.273 = " Aerobic Decoupling ";
+        %tmp.274 = add %tmp.272 %tmp.273;
+        %tmp.276 = getv ? :aerobicDecoupling;
+        %tmp.277 = add %tmp.274 %tmp.276;
+        invoke %tmp.261 %tmp.262(%tmp.277);
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_209_35_stop:
+        goto @E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_209_6_if_end;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_209_6_if_end:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 214 5 ]
+        %tmp.279 = getv ? :field;
+        %tmp.280 = getv function %tmp.279 :setData;
+        %tmp.282 = getv ? :aerobicDecoupling;
+        invoke %tmp.279 %tmp.280(%tmp.282);
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 216 5 ]
+        %tmp.284 = getv ? :aerobicDecoupling;
+        %tmp.285 = getv function %tmp.284 :format;
+        %tmp.286 = "%+.1f";
+        %tmp.287 = invoke %tmp.284 %tmp.285(%tmp.286);
+        %tmp.288 = "%";
+        %tmp.289 = add %tmp.287 %tmp.288;
+        ret %tmp.289;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_55_85_stop:
+    }
+}
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 1; ]
+<init> {
+}

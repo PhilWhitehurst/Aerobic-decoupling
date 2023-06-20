@@ -1,0 +1,75 @@
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 3; ]
+import Toybox.Time;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 5; ]
+import Toybox.Application;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 8; ]
+class AerobicDecouplingView extends WatchUi.SimpleDataField{
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 11; ]
+    function initialize() as Void {
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_11_26_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 12 8 ]
+        %tmp.2 = getv ? :SimpleDataField;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 13 8 ]
+        %tmp.4 = "My Label";
+        putv self :label %tmp.4;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_11_26_stop:
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 20; ]
+    function compute(info as Activity.Info) as Numeric or Duration or String or Null {
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_20_85_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 22 8 ]
+        [ "E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_20_85_start" "E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_20_85_stop" ]
+        %warmup.1 = local;
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getv function %tmp.3 :getProperty;
+        %tmp.5 = "warmupDuration";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        lputv %warmup.1 %tmp.6;
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 23 8 ]
+        [ "E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_20_85_start" "E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_20_85_stop" ]
+        %decoupling.2 = local;
+        %tmp.7 = self;
+        %tmp.8 = getv function %tmp.7 :getApp;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.10 = getv function %tmp.9 :getProperty;
+        %tmp.11 = "decouplingDuration";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        lputv %decoupling.2 %tmp.12;
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 24 8 ]
+        [ "E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_20_85_start" "E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_20_85_stop" ]
+        %elapsed.3 = local;
+        %tmp.13 = self;
+        %tmp.14 = getv function %tmp.13 :getApp;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        %tmp.16 = getv function %tmp.15 :getProperty;
+        %tmp.17 = "elapsed";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        lputv %elapsed.3 %tmp.18;
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc" 29 8 ]
+        %tmp.20 = lgetv %warmup.1;
+        %tmp.21 = "%";
+        %tmp.22 = add %tmp.20 %tmp.21;
+        ret %tmp.22;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingView_mc_20_85_stop:
+    }
+}
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingView.mc"; @line = 1; ]
+<init> {
+}

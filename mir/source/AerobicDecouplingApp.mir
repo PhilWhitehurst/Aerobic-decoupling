@@ -1,0 +1,99 @@
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 5; ]
+class AerobicDecouplingApp extends Application.AppBase{
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 7; ]
+    function initialize() as Void {
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_7_26_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc" 8 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_7_26_stop:
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 12; ]
+    function onStart(state as Dictionary or Null) as Void {
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_12_51_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc" 13 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getv function %tmp.3 :setProperty;
+        %tmp.5 = "normalisedPower";
+        %tmp.6 = 0;
+        invoke %tmp.3 %tmp.4(%tmp.5, %tmp.6);
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc" 14 8 ]
+        %tmp.7 = self;
+        %tmp.8 = getv function %tmp.7 :getApp;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.10 = getv function %tmp.9 :setProperty;
+        %tmp.11 = "averageSpeed";
+        %tmp.12 = 0;
+        invoke %tmp.9 %tmp.10(%tmp.11, %tmp.12);
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc" 15 8 ]
+        %tmp.13 = self;
+        %tmp.14 = getv function %tmp.13 :getApp;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        %tmp.16 = getv function %tmp.15 :setProperty;
+        %tmp.17 = "averageHR";
+        %tmp.18 = 0;
+        invoke %tmp.15 %tmp.16(%tmp.17, %tmp.18);
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc" 16 8 ]
+        %tmp.19 = self;
+        %tmp.20 = getv function %tmp.19 :getApp;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        %tmp.22 = getv function %tmp.21 :setProperty;
+        %tmp.23 = "aerobicDecoupling";
+        %tmp.24 = 0;
+        invoke %tmp.21 %tmp.22(%tmp.23, %tmp.24);
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc" 17 8 ]
+        %tmp.25 = self;
+        %tmp.26 = getv function %tmp.25 :getApp;
+        %tmp.27 = invoke %tmp.25 %tmp.26();
+        %tmp.28 = getv function %tmp.27 :setProperty;
+        %tmp.29 = "elapsed";
+        %tmp.30 = 0;
+        invoke %tmp.27 %tmp.28(%tmp.29, %tmp.30);
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_12_51_stop:
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 23; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 27; ]
+    function getInitialView() as Array<Views or InputDelegates> or Null {
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_27_65_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc" 28 8 ]
+        %tmp.1 = newa Array<Views or InputDelegates> 1;
+        %tmp.5 = getv ? :AerobicDecouplingView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_27_65_stop:
+    }
+}
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 33; ]
+function getApp() as AerobicDecouplingApp {
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_33_42_start:
+[ "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc" 34 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 AerobicDecouplingApp;
+    ret %tmp.4;
+E_connect_iq_AerobicDecoupling_source_AerobicDecouplingApp_mc_33_42_stop:
+}
+[ @file = "E:\connect iq\AerobicDecoupling\source\AerobicDecouplingApp.mc"; @line = 1; ]
+<init> {
+}

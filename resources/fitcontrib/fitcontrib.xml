@@ -1,0 +1,13 @@
+<resources>
+    <strings>
+    	<string id="decoupling_label">Decoupling</string>
+    	<string id="decoupling_units">%</string>
+    	<string id="decoupling_title">Aerobic Decoupling</string>
+    </strings>
+    
+     <fitContributions>
+        <fitField id="0" displayInChart="true" chartTitle="@Strings.decoupling_title" fillColor="ff0000" sortOrder = "1" precision="2" displayInActivityLaps="false"
+        dataLabel="@Strings.decoupling_label"
+        unitLabel="@Strings.decoupling_units"/>
+     </fitContributions>
+</resources>
