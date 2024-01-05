@@ -1,59 +1,1458 @@
-[ @file = "Rez.mc"; @line = 1; ]
+[ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "Rez.mc"; @line = 1; ]
+    [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "Rez.mc"; @line = 2; ]
+    [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "Rez.mc"; @line = 2; ]
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "Rez.mc"; @line = 3; ]
-        import Toybox.Lang;
-        [ @file = "Rez.mc"; @line = 4; @position = 19; initialized = true; ]
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "Rez.mc"; @line = 6; ]
+    [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 12; ]
     module Fonts {
-        [ @file = "Rez.mc"; @line = 6; ]
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 12; ]
         <init> {
         }
     }
-    [ @file = "Rez.mc"; @line = 8; ]
+    [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 15; ]
     module JsonData {
-        [ @file = "Rez.mc"; @line = 8; ]
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 15; ]
         <init> {
         }
     }
-    [ @file = "Rez.mc"; @line = 10; ]
+    [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 18; ]
     module Layouts {
-        [ @file = "Rez.mc"; @line = 10; ]
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 18; ]
         <init> {
         }
     }
-    [ @file = "Rez.mc"; @line = 12; ]
+    [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 21; ]
     module Menus {
-        [ @file = "Rez.mc"; @line = 12; ]
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 21; ]
         <init> {
         }
     }
-    [ @file = "Rez.mc"; @line = 14; ]
+    [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 24; ]
     module Strings {
-        [ @file = "Rez.mc"; @line = 14; ]
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 24; ]
         <init> {
         }
-        [ @file = "Rez.mc"; @line = 15; ]
-        import Toybox.Lang;
-        [ @file = "Rez.mc"; @line = 16; @position = 19; initialized = true; ]
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 25; @position = 27; initialized = true; ]
         var decoupling_title as Symbol;
-        [ @file = "Rez.mc"; @line = 17; @position = 19; initialized = true; ]
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 26; @position = 27; initialized = true; ]
         var decoupling_label as Symbol;
-        [ @file = "Rez.mc"; @line = 18; @position = 19; initialized = true; ]
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 27; @position = 27; initialized = true; ]
         var decoupling_units as Symbol;
-        [ @file = "Rez.mc"; @line = 19; @position = 19; initialized = true; ]
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 28; @position = 27; initialized = true; ]
         var AppName as Symbol;
     }
+    [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 31; ]
+    module Styles {
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 31; ]
+        <init> {
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 32; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 32; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 33; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 36; ]
+        module system_size__menu_header {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 36; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 37; @position = 18; ]
+            const height as Number = 0;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 40; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 40; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 41; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 44; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 44; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 45; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 48; ]
+        module prompt_loc__body_no_title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 48; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 49; @position = 18; ]
+            const x as Number = 17;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 50; @position = 18; ]
+            const y as Number = 17;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 53; ]
+        module system_icon_dark__about {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 53; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 54; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_dark__about.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 55; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 56; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 57; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 60; ]
+        module system_icon_light__question {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 60; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 61; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_light__question.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 62; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 63; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 64; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 67; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 67; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 68; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 71; ]
+        module prompt_font__title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 71; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 72; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 75; ]
+        module system_icon_dark__discard {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 75; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 76; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_dark__discard.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 77; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 78; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 79; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 82; ]
+        module system_size__menu_item {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 82; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 83; @position = 18; ]
+            const width as Number = 240;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 84; @position = 18; ]
+            const height as Number = 60;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 87; ]
+        module system_color_dark__text {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 87; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 89 18 ]
+                %tmp.1 = getm $.Toybox.Graphics;
+                %tmp.2 = getv %tmp.1 :COLOR_TRANSPARENT;
+                putv self :background %tmp.2;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 88; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 89; @position = 18; ]
+            const background;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 92; ]
+        module system_icon_destructive__discard {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 92; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 93; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_destructive__discard.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 94; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 95; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 96; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 99; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 99; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 100; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 103; ]
+        module prompt_size__title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 103; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 104; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 107; ]
+        module confirmation_font__body {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 107; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 108 18 ]
+                %tmp.3 = getm $.Toybox.Graphics;
+                %tmp.4 = getv %tmp.3 :TEXT_JUSTIFY_CENTER;
+                %tmp.5 = getm $.Toybox.Graphics;
+                %tmp.6 = getv %tmp.5 :TEXT_JUSTIFY_VCENTER;
+                %tmp.7 = bitor %tmp.4 %tmp.6;
+                putv self :justification %tmp.7;
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 109 18 ]
+                %tmp.8 = getm $.Toybox.Graphics;
+                %tmp.9 = getv %tmp.8 :FONT_MEDIUM;
+                putv self :font %tmp.9;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 108; @position = 18; ]
+            const justification;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 109; @position = 18; ]
+            const font;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 112; ]
+        module system_color_dark__background {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 112; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 113; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 114; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 117; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 117; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 118; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 121; ]
+        module system_size__launch_icon {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 121; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 122; @position = 18; ]
+            const scaleX as Number = 36;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 123; @position = 18; ]
+            const scaleY as Number = 36;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 124; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 127; ]
+        module confirmation_input__confirm {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 127; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 128; @position = 18; ]
+            const y1 as Number = 317;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 129; @position = 18; ]
+            const x1 as Number = 186;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 130; @position = 18; ]
+            const y2 as Number = 345;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 131; @position = 18; ]
+            const x2 as Number = 213;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 134; ]
+        module prompt_font__body_with_title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 134; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 135 18 ]
+                %tmp.10 = getm $.Toybox.Graphics;
+                %tmp.11 = getv %tmp.10 :TEXT_JUSTIFY_CENTER;
+                %tmp.12 = getm $.Toybox.Graphics;
+                %tmp.13 = getv %tmp.12 :TEXT_JUSTIFY_VCENTER;
+                %tmp.14 = bitor %tmp.11 %tmp.13;
+                putv self :justification %tmp.14;
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 136 18 ]
+                %tmp.15 = getm $.Toybox.Graphics;
+                %tmp.16 = getv %tmp.15 :FONT_MEDIUM;
+                putv self :font %tmp.16;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 135; @position = 18; ]
+            const justification;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 136; @position = 18; ]
+            const font;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 139; ]
+        module confirmation_loc__body {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 139; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 140; @position = 18; ]
+            const x as Number = 17;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 141; @position = 18; ]
+            const y as Number = 229;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 144; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 144; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 145; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 148; ]
+        module prompt_color_dark__background {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 148; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 149; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 150; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 153; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 153; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 154; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 157; ]
+        module system_loc__hint_action_menu {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 157; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 158; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 161; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 162; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\confirmation_icon__hint_completion.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 163; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 164; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 165; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 168; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 168; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 169; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 172; ]
+        module prompt_size__body_no_title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 172; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 173; @position = 18; ]
+            const width as Number = 206;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 174; @position = 18; ]
+            const height as Number = 280;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 177; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 177; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 178; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 181; ]
+        module prompt_color_light__background {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 181; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 182; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 183; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 186; ]
+        module confirmation_input__delete {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 186; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 187; @position = 18; ]
+            const y1 as Number = 317;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 188; @position = 18; ]
+            const x1 as Number = 186;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 189; @position = 18; ]
+            const y2 as Number = 345;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 190; @position = 18; ]
+            const x2 as Number = 213;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 193; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 193; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 194; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 197; ]
+        module system_input__action_menu {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 197; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 198 18 ]
+                %tmp.17 = getm $.Toybox.WatchUi;
+                %tmp.18 = getv %tmp.17 :KEY_MENU;
+                putv self :button %tmp.18;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 198; @position = 18; ]
+            const button;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 201; ]
+        module system_icon_light__save {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 201; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 202; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_light__save.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 203; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 204; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 205; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 208; ]
+        module prompt_color_light__body {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 208; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 210 18 ]
+                %tmp.19 = getm $.Toybox.Graphics;
+                %tmp.20 = getv %tmp.19 :COLOR_TRANSPARENT;
+                putv self :background %tmp.20;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 209; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 210; @position = 18; ]
+            const background;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 213; ]
+        module system_loc__subwindow {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 213; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 214; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 217; ]
+        module system_icon_light__warning {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 217; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 218; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_light__warning.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 219; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 220; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 221; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 224; ]
+        module confirmation_color_light__body {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 224; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 226 18 ]
+                %tmp.21 = getm $.Toybox.Graphics;
+                %tmp.22 = getv %tmp.21 :COLOR_TRANSPARENT;
+                putv self :background %tmp.22;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 225; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 226; @position = 18; ]
+            const background;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 229; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 229; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 230; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\confirmation_icon__hint_keep.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 231; @position = 18; ]
+            const disableTransparency as Boolean = false;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 232; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 233; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 236; ]
+        module activity_color_light__background {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 236; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 237; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 238; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 241; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 241; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 242; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 245; ]
+        module system_size__screen {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 245; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 246; @position = 18; ]
+            const width as Number = 240;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 247; @position = 18; ]
+            const height as Number = 400;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 250; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 250; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 251; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 254; ]
+        module system_color_light__background {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 254; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 255; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 256; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 259; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 259; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 260; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 263; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 263; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 264; @position = 18; ]
+            const x as Number = 186;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 265; @position = 18; ]
+            const y as Number = 317;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 266; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 267; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 270; ]
+        module activity_color_dark__text {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 270; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 272 18 ]
+                %tmp.23 = getm $.Toybox.Graphics;
+                %tmp.24 = getv %tmp.23 :COLOR_TRANSPARENT;
+                putv self :background %tmp.24;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 271; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 272; @position = 18; ]
+            const background;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 275; ]
+        module confirmation_input__keep {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 275; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 276; @position = 18; ]
+            const y1 as Number = 317;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 277; @position = 18; ]
+            const x1 as Number = 54;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 278; @position = 18; ]
+            const y2 as Number = 345;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 279; @position = 18; ]
+            const x2 as Number = 72;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 282; ]
+        module prompt_loc__body_with_title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 282; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 283; @position = 18; ]
+            const x as Number = 17;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 284; @position = 18; ]
+            const y as Number = 121;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 287; ]
+        module system_icon_dark__search {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 287; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 288; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_dark__search.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 289; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 290; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 291; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 294; ]
+        module activity_color_light__text {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 294; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 296 18 ]
+                %tmp.25 = getm $.Toybox.Graphics;
+                %tmp.26 = getv %tmp.25 :COLOR_TRANSPARENT;
+                putv self :background %tmp.26;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 295; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 296; @position = 18; ]
+            const background;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 299; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 299; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 300; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\confirmation_icon__hint_keep.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 301; @position = 18; ]
+            const disableTransparency as Boolean = false;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 302; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 303; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 306; ]
+        module system_icon_dark__save {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 306; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 307; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_dark__save.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 308; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 309; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 310; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 313; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 313; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 314; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 317; ]
+        module system_icon_light__search {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 317; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 318; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_light__search.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 319; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 320; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 321; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 324; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 324; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 325; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 328; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 328; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 329; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 332; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 332; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 333; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 336; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 336; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 337; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\confirmation_icon__hint_reject.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 338; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 339; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 340; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 343; ]
+        module confirmation_color_dark__body {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 343; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 345 18 ]
+                %tmp.27 = getm $.Toybox.Graphics;
+                %tmp.28 = getv %tmp.27 :COLOR_TRANSPARENT;
+                putv self :background %tmp.28;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 344; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 345; @position = 18; ]
+            const background;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 348; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 348; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 349; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\confirmation_icon__hint_completion.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 350; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 351; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 352; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 355; ]
+        module prompt_color_dark__title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 355; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 357 18 ]
+                %tmp.29 = getm $.Toybox.Graphics;
+                %tmp.30 = getv %tmp.29 :COLOR_TRANSPARENT;
+                putv self :background %tmp.30;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 356; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 357; @position = 18; ]
+            const background;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 360; ]
+        module system_icon_destructive__cancel {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 360; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 361; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_destructive__cancel.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 362; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 363; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 364; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 367; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 367; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 368; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 371; ]
+        module prompt_loc__title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 372; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 375; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 375; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 376; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 379; ]
+        module prompt_color_light__title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 379; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 381 18 ]
+                %tmp.31 = getm $.Toybox.Graphics;
+                %tmp.32 = getv %tmp.31 :COLOR_TRANSPARENT;
+                putv self :background %tmp.32;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 380; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 381; @position = 18; ]
+            const background;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 384; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 384; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 385; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 388; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 388; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 389; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 392; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 392; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 393; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\confirmation_icon__hint_keep.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 394; @position = 18; ]
+            const disableTransparency as Boolean = false;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 395; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 396; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 399; ]
+        module system_icon_light__cancel {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 399; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 400; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_light__cancel.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 401; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 402; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 403; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 406; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 407; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\confirmation_icon__hint_reject.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 408; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 409; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 410; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 413; ]
+        module system_icon_light__about {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 413; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 414; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_light__about.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 415; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 416; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 417; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 420; ]
+        module system_size__toast_icon {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 421; @position = 18; ]
+            const scaleX as Number = 32;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 422; @position = 18; ]
+            const scaleY as Number = 32;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 423; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 426; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 426; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 427; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 430; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 431; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\confirmation_icon__hint_reject.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 432; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 433; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 434; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 437; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 437; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 438; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 441; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 441; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 442; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 445; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 445; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 446; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 449; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 449; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 450; @position = 18; ]
+            const x as Number = 54;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 451; @position = 18; ]
+            const y as Number = 317;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 452; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 453; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 456; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 456; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 457; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_dark__discard.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 458; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 459; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 460; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 463; ]
+        module activity_color_dark__background {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 463; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 464; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 465; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 468; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 468; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 469; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 472; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 472; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 473; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 476; ]
+        module system_size__menu_icon {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 476; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 477; @position = 18; ]
+            const scaleX as Number = 36;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 478; @position = 18; ]
+            const scaleY as Number = 36;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 479; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 482; ]
+        module system_icon_destructive__warning {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 482; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 483; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_destructive__warning.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 484; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 485; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 486; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 489; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 489; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 490; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 493; ]
+        module system_icon_dark__cancel {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 493; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 494; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_dark__cancel.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 495; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 496; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 497; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 500; ]
+        module prompt_size__body_with_title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 500; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 501; @position = 18; ]
+            const width as Number = 206;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 502; @position = 18; ]
+            const height as Number = 158;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 505; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 505; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 506; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 509; ]
+        module system_color_light__text {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 509; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 511 18 ]
+                %tmp.33 = getm $.Toybox.Graphics;
+                %tmp.34 = getv %tmp.33 :COLOR_TRANSPARENT;
+                putv self :background %tmp.34;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 510; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 511; @position = 18; ]
+            const background;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 514; ]
+        module system_icon_light__check {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 514; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 515; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_light__check.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 516; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 517; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 518; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 521; ]
+        module confirmation_input__reject {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 521; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 522; @position = 18; ]
+            const y1 as Number = 317;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 523; @position = 18; ]
+            const x1 as Number = 54;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 524; @position = 18; ]
+            const y2 as Number = 345;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 525; @position = 18; ]
+            const x2 as Number = 72;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 528; ]
+        module system_icon_light__revert {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 528; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 529; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_light__revert.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 530; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 531; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 532; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 535; ]
+        module system_size__subwindow {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 535; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 536; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 539; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 539; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 540; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 543; ]
+        module system_icon_dark__check {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 543; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 544; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_dark__check.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 545; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 546; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 547; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 550; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 550; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 551; @position = 18; ]
+            const x as Number = 54;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 552; @position = 18; ]
+            const y as Number = 317;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 553; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 554; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 557; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 557; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 558; @position = 18; ]
+            const x as Number = 186;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 559; @position = 18; ]
+            const y as Number = 317;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 560; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 561; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 564; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 564; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 565; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 568; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 568; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 569; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 572; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 572; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 573; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 576; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 576; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 577; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 580; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 580; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 581; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 584; ]
+        module system_icon_dark__revert {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 584; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 585; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_dark__revert.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 586; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 587; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 588; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 591; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 591; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 592; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_dark__discard.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 593; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 594; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 595; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 598; ]
+        module system_icon_dark__question {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 598; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 599; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_dark__question.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 600; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 601; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 602; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 605; ]
+        module system_icon_light__discard {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 605; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 606; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_light__discard.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 607; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 608; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 609; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 612; ]
+        module device_info {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 612; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 614 18 ]
+                %tmp.35 = getm $.Toybox.System;
+                %tmp.36 = getv %tmp.35 :SCREEN_SHAPE_RECTANGLE;
+                putv self :screenShape %tmp.36;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 613; @position = 18; ]
+            const screenWidth as Number = 240;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 614; @position = 18; ]
+            const screenShape;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 615; @position = 18; ]
+            const hasNightMode as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 616; @position = 18; ]
+            const screenHeight as Number = 400;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 617; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 618; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 621; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 621; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 622; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\confirmation_icon__hint_completion.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 623; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 624; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 625; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 628; ]
+        module prompt_font__body_no_title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 628; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 629 18 ]
+                %tmp.37 = getm $.Toybox.Graphics;
+                %tmp.38 = getv %tmp.37 :TEXT_JUSTIFY_CENTER;
+                %tmp.39 = getm $.Toybox.Graphics;
+                %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_VCENTER;
+                %tmp.41 = bitor %tmp.38 %tmp.40;
+                putv self :justification %tmp.41;
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 630 18 ]
+                %tmp.42 = getm $.Toybox.Graphics;
+                %tmp.43 = getv %tmp.42 :FONT_MEDIUM;
+                putv self :font %tmp.43;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 629; @position = 18; ]
+            const justification;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 630; @position = 18; ]
+            const font;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 633; ]
+        module prompt_size__title_icon {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 633; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 634; @position = 18; ]
+            const scaleX as Number = 64;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 635; @position = 18; ]
+            const scaleY as Number = 64;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 636; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 639; ]
+        module system_icon_dark__warning {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 639; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 640; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_dark__warning.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 641; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 642; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 643; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 646; ]
+        module prompt_loc__title_icon {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 646; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 647; @position = 18; ]
+            const x as Number = 120;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 648; @position = 18; ]
+            const y as Number = 43;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 649; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 650; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 653; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 653; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 654; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 657; ]
+        module prompt_color_dark__body {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 657; ]
+            <init> {
+[ "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen" 659 18 ]
+                %tmp.44 = getm $.Toybox.Graphics;
+                %tmp.45 = getv %tmp.44 :COLOR_TRANSPARENT;
+                putv self :background %tmp.45;
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 658; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 659; @position = 18; ]
+            const background;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 662; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 662; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 663; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_dark__discard.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 664; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 665; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 666; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 669; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 669; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 670; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 673; ]
+        module confirmation_size__body {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 673; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 674; @position = 18; ]
+            const width as Number = 206;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 675; @position = 18; ]
+            const height as Number = 85;
+        }
+        [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 678; ]
+        module system_icon_positive__check {
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 678; ]
+            <init> {
+            }
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 679; @position = 18; ]
+            const filename as String = "C:\\Users\\Phil_2\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edgeexplore2\\system_icon_positive__check.svg";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 680; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 681; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 682; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+    }
 }
-[ @file = "Rez.mc"; @line = 1; ]
+[ @file = "E:\connect iq\AerobicDecoupling\bin\gen\006-B4169-00\source\Rez.mcgen"; @line = 1; ]
 <init> {
 }

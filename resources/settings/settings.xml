@@ -1,18 +1,29 @@
 <settings>
 
    
-
-    <setting propertyKey="@Properties.warmupDuration" title="Warm up duration" prompt="Duration of warm up period">
-        <settingConfig type="numeric" errorMessage="Please enter an integer duration in minutes" />
+    <setting propertyKey="@Properties.warmupDuration" title="Warm Up Duration" prompt="Choose warm up duration in minutes">
+        <settingConfig type="list">
+            <listEntry value="5">5 minutes</listEntry>
+            <listEntry value="10">10 minutes</listEntry>
+            <listEntry value="20">20 minutes</listEntry>
+            <listEntry value="30">30 minutes</listEntry>
+            <listEntry value="40">40 minutes</listEntry>
+           
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.aerobicBaselineDuration" title="Baseline Duration" prompt="Choose baseline duration in minutes">
+        <settingConfig type="list">
+            <listEntry value="10">10 minutes</listEntry>
+            <listEntry value="20">20 minutes</listEntry>
+            <listEntry value="30">30 minutes</listEntry>
+            <listEntry value="40">40 minutes</listEntry>
+            <listEntry value="60">60 minutes</listEntry>
+           
+        </settingConfig>
     </setting>
 
-    <setting propertyKey="@Properties.aerobicBaselineDuration" title="Aerobic baseline duration" prompt="Duration over which to measure your aerobic baseline">
-        <settingConfig type="numeric" errorMessage="Please enter integer duration in minutes" />
-    </setting>
-
-    <setting propertyKey="@Properties.smoothingFactor" title="Decoupling smoothing factor" prompt="Used to smooth the change in decoupling">
-        <settingConfig type="numeric" errorMessage="Please enter a postive number between 0 and 1" />
-    </setting>
+      
+  
      
 
 </settings>

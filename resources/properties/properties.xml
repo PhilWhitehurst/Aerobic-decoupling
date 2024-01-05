@@ -1,7 +1,10 @@
 <properties>
     <property id="warmupDuration" type="number">20</property>
+
+
+    
     <property id="aerobicBaselineDuration" type="number">45</property>
-     <property id="smoothingFactor" type="double">0.8</property>
+    
       
 
 </properties>
