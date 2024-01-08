@@ -1,9 +1,9 @@
 <properties>
-    <property id="warmupDuration" type="number">20</property>
+    <property id="warmupDuration" type="number">2</property>
 
 
     
-    <property id="aerobicBaselineDuration" type="number">45</property>
+    <property id="aerobicBaselineDuration" type="number">5</property>
     
       
 

@@ -2,6 +2,7 @@ import Toybox.Activity;
 import Toybox.Lang;
 import Toybox.Math;
 import Toybox.Time;
+import Toybox.FitContributor;
 import Toybox.WatchUi;
 import Toybox.Application;
 
@@ -9,17 +10,24 @@ class AerobicDecouplingView extends WatchUi.SimpleDataField {
   private var _ad as AerobicDecouplingCalc;
   private var _activeActivity as Boolean;
 
-  var field = null;
+  var aerobicDecoupling as Field;
+  var maxAerobicDecoupling as Field;
 
   // Set the label of the data field here.
   function initialize() {
     SimpleDataField.initialize();
     label = "DECOUPLING";
-    field = createField(
+    aerobicDecoupling = createField(
       "aerobicDecoupling",
       0,
       FitContributor.DATA_TYPE_FLOAT,
       { :mesgType => FitContributor.MESG_TYPE_RECORD }
+    );
+     maxAerobicDecoupling = createField(
+      "maxAerobicDecoupling",
+      1,
+      FitContributor.DATA_TYPE_FLOAT,
+      { :mesgType => FitContributor.MESG_TYPE_SESSION }
     );
 
     _ad = new AerobicDecouplingCalc();
@@ -48,15 +56,19 @@ class AerobicDecouplingView extends WatchUi.SimpleDataField {
         _activeActivity = true;
       }
     }
-    var output = _ad.compute(info);
+    var output = _ad.compute(info as Info);
 
-    if (output instanceof Number ) {
-      field.setData(output);
-      return output.format("%+.1f") + "%";
+    if (output instanceof Array ) {
+      aerobicDecoupling.setData(output[0]);
+      maxAerobicDecoupling.setData(output[1]);
+      return output[0].format("%+.1f") + "%";
     
+    } else {
+      aerobicDecoupling.setData(0);
+      maxAerobicDecoupling.setData(0);
     }
 
-    field.setData(0);
+   
     return output;
 
 

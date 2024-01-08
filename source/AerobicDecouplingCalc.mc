@@ -9,7 +9,7 @@ class AerobicDecouplingCalc {
   var aerobicBaselineDurationSeconds =
     Properties.getValue("aerobicBaselineDuration") * 60; // Aerobic duration in minutes converted to seconds
 
-  var timeDuration = Properties.getValue("aerobicBaselineDuration") * 60; // Smoothing factor for exponential moving average
+  var timeDuration = Properties.getValue("aerobicBaselineDuration") * 60000; // Smoothing factor for exponential moving average
 
   var heartRate30s = null;
   var heartRate30sMean = null;
@@ -22,7 +22,8 @@ class AerobicDecouplingCalc {
   var baselineAerobicEfficiency = null;
 
   var aerobicDecoupling = 0.0;
-  var field = null;
+  var maxAerobicDecoupling = 0f;
+  
 
   var normalisedValue = null;
 
@@ -51,7 +52,7 @@ class AerobicDecouplingCalc {
     }
   }
 
-  function compute(info as Info) as Numeric or String or Null {
+  function compute(info as Info) as Array<Float> or String or Null {
     var currentHeartRate = info.currentHeartRate;
     var currentValue = null;
 
@@ -76,7 +77,9 @@ class AerobicDecouplingCalc {
       return "NO DATA!";
     }
 
-    if (info.elapsedTime < warmupDuration) {
+    System.println(info.elapsedTime + " " +  warmupDuration);
+
+    if (info.elapsedTime <  warmupDuration) {
       // Still in the warm up period, don't process activity data
 
       return "WARM UP";
@@ -137,7 +140,7 @@ class AerobicDecouplingCalc {
         }
 
         if (info.elapsedTime < warmupDuration + aerobicBaselineDuration) {
-          field.setData(0);
+         
           return "BASELINE";
         }
 
@@ -188,8 +191,12 @@ class AerobicDecouplingCalc {
       );
     }
 
-    field.setData(aerobicDecoupling);
-    // Express as percentage to 1dp.
-    return aerobicDecoupling * 100;
+    if (aerobicDecoupling > maxAerobicDecoupling) {
+      maxAerobicDecoupling = aerobicDecoupling;
+    }
+   
+    
+       // Express as percentage to 1dp.
+    return [aerobicDecoupling * 100, maxAerobicDecoupling * 100];
   }
 }

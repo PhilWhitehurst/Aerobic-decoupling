@@ -6,8 +6,16 @@
     </strings>
     
      <fitContributions>
-        <fitField id="0" displayInChart="true" chartTitle="@Strings.decoupling_title" fillColor="ff0000" sortOrder = "1" precision="1" displayInActivityLaps="false"
+        <fitField id="0" displayInChart="true" chartTitle="@Strings.decoupling_title" fillColor="ff0000" sortOrder = "0" precision="1" displayInActivityLaps="false"
         dataLabel="@Strings.decoupling_label"
         unitLabel="@Strings.decoupling_units"/>
+        <fitField id="1"
+        displayInActivitySummary="true"
+        sortOrder="1"
+        precision="1"
+        dataLabel="@Strings.decoupling_title"
+        unitLabel="@Strings.decoupling_units"
+       
+     />
      </fitContributions>
 </resources>

@@ -3,6 +3,7 @@
    
     <setting propertyKey="@Properties.warmupDuration" title="Warm Up Duration" prompt="Choose warm up duration in minutes">
         <settingConfig type="list">
+            <listEntry value="2">2 minutes</listEntry>
             <listEntry value="5">5 minutes</listEntry>
             <listEntry value="10">10 minutes</listEntry>
             <listEntry value="20">20 minutes</listEntry>
@@ -13,6 +14,7 @@
     </setting>
     <setting propertyKey="@Properties.aerobicBaselineDuration" title="Baseline Duration" prompt="Choose baseline duration in minutes">
         <settingConfig type="list">
+            <listEntry value="5">5 minutes</listEntry>
             <listEntry value="10">10 minutes</listEntry>
             <listEntry value="20">20 minutes</listEntry>
             <listEntry value="30">30 minutes</listEntry>

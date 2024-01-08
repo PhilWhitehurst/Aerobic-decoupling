@@ -7,111 +7,114 @@
         <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="1" lineNum="7" parent="globals/AerobicDecouplingCalc" pc="268435491" symbol="&lt;init&gt;"/>
         <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="1" lineNum="9" parent="globals/AerobicDecouplingCalc" pc="268435525" symbol="&lt;init&gt;"/>
         <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="1" lineNum="12" parent="globals/AerobicDecouplingCalc" pc="268435559" symbol="&lt;init&gt;"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="56" parent="globals/AerobicDecouplingCalc" pc="268435594" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="57" parent="globals/AerobicDecouplingCalc" pc="268435598" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="58" parent="globals/AerobicDecouplingCalc" pc="268435608" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="60" parent="globals/AerobicDecouplingCalc" pc="268435611" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="62" parent="globals/AerobicDecouplingCalc" pc="268435618" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="67" parent="globals/AerobicDecouplingCalc" pc="268435624" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="68" parent="globals/AerobicDecouplingCalc" pc="268435632" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="71" parent="globals/AerobicDecouplingCalc" pc="268435652" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="74" parent="globals/AerobicDecouplingCalc" pc="268435672" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="69" parent="globals/AerobicDecouplingCalc" pc="268435695" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="70" parent="globals/AerobicDecouplingCalc" pc="268435705" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="72" parent="globals/AerobicDecouplingCalc" pc="268435708" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="73" parent="globals/AerobicDecouplingCalc" pc="268435718" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="75" parent="globals/AerobicDecouplingCalc" pc="268435721" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="78" parent="globals/AerobicDecouplingCalc" pc="268435728" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="80" parent="globals/AerobicDecouplingCalc" pc="268435735" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="83" parent="globals/AerobicDecouplingCalc" pc="268435741" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="86" parent="globals/AerobicDecouplingCalc" pc="268435761" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="91" parent="globals/AerobicDecouplingCalc" pc="268435767" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="93" parent="globals/AerobicDecouplingCalc" pc="268435780" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="95" parent="globals/AerobicDecouplingCalc" pc="268435793" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="97" parent="globals/AerobicDecouplingCalc" pc="268435826" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="98" parent="globals/AerobicDecouplingCalc" pc="268435852" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="99" parent="globals/AerobicDecouplingCalc" pc="268435878" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="101" parent="globals/AerobicDecouplingCalc" pc="268435905" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="103" parent="globals/AerobicDecouplingCalc" pc="268435918" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="107" parent="globals/AerobicDecouplingCalc" pc="268435931" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="110" parent="globals/AerobicDecouplingCalc" pc="268435968" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="116" parent="globals/AerobicDecouplingCalc" pc="268435999" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="118" parent="globals/AerobicDecouplingCalc" pc="268436006" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="120" parent="globals/AerobicDecouplingCalc" pc="268436019" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="123" parent="globals/AerobicDecouplingCalc" pc="268436046" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="125" parent="globals/AerobicDecouplingCalc" pc="268436066" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="126" parent="globals/AerobicDecouplingCalc" pc="268436092" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="127" parent="globals/AerobicDecouplingCalc" pc="268436119" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="129" parent="globals/AerobicDecouplingCalc" pc="268436145" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="131" parent="globals/AerobicDecouplingCalc" pc="268436158" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="135" parent="globals/AerobicDecouplingCalc" pc="268436171" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="139" parent="globals/AerobicDecouplingCalc" pc="268436208" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="143" parent="globals/AerobicDecouplingCalc" pc="268436239" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="144" parent="globals/AerobicDecouplingCalc" pc="268436268" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="145" parent="globals/AerobicDecouplingCalc" pc="268436291" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="148" parent="globals/AerobicDecouplingCalc" pc="268436297" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="153" parent="globals/AerobicDecouplingCalc" pc="268436326" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="156" parent="globals/AerobicDecouplingCalc" pc="268436339" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="161" parent="globals/AerobicDecouplingCalc" pc="268436377" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="162" parent="globals/AerobicDecouplingCalc" pc="268436390" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="166" parent="globals/AerobicDecouplingCalc" pc="268436437" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="169" parent="globals/AerobicDecouplingCalc" pc="268436462" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="170" parent="globals/AerobicDecouplingCalc" pc="268436475" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="172" parent="globals/AerobicDecouplingCalc" pc="268436494" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="176" parent="globals/AerobicDecouplingCalc" pc="268436522" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="184" parent="globals/AerobicDecouplingCalc" pc="268436559" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="185" parent="globals/AerobicDecouplingCalc" pc="268436572" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="195" parent="globals/AerobicDecouplingCalc" pc="268436634" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="197" parent="globals/AerobicDecouplingCalc" pc="268436660" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="39" parent="globals/AerobicDecouplingCalc" pc="268436675" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="40" parent="globals/AerobicDecouplingCalc" pc="268436679" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="42" parent="globals/AerobicDecouplingCalc" pc="268436696" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="44" parent="globals/AerobicDecouplingCalc" pc="268436722" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="45" parent="globals/AerobicDecouplingCalc" pc="268436730" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="48" parent="globals/AerobicDecouplingCalc" pc="268436750" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="51" parent="globals/AerobicDecouplingCalc" pc="268436770" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="46" parent="globals/AerobicDecouplingCalc" pc="268436773" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="47" parent="globals/AerobicDecouplingCalc" pc="268436786" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="49" parent="globals/AerobicDecouplingCalc" pc="268436789" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="50" parent="globals/AerobicDecouplingCalc" pc="268436802" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="52" parent="globals/AerobicDecouplingCalc" pc="268436805" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="4" lineNum="6" parent="globals/AerobicDecouplingApp" pc="268436820" symbol="&lt;init&gt;"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="6" lineNum="25" parent="globals/AerobicDecouplingApp" pc="268436839" symbol="getInitialView"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="6" lineNum="26" parent="globals/AerobicDecouplingApp" pc="268436841" symbol="getInitialView"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="7" lineNum="8" parent="globals/AerobicDecouplingApp" pc="268436882" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="7" lineNum="9" parent="globals/AerobicDecouplingApp" pc="268436884" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="9" lineNum="31" parent="globals" pc="268436903" symbol="getApp"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="9" lineNum="32" parent="globals" pc="268436913" symbol="getApp"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\bin\\gen\\006-B4169-00\\source\\Rez.mcgen" id="10" lineNum="7" parent="globals/Rez" pc="268436929" symbol="&lt;init&gt;"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="11" lineNum="8" parent="globals/AerobicDecouplingView" pc="268436953" symbol="&lt;init&gt;"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="34" parent="globals/AerobicDecouplingView" pc="268436972" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="39" parent="globals/AerobicDecouplingView" pc="268436976" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="41" parent="globals/AerobicDecouplingView" pc="268436993" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="44" parent="globals/AerobicDecouplingView" pc="268437006" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="46" parent="globals/AerobicDecouplingView" pc="268437020" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="48" parent="globals/AerobicDecouplingView" pc="268437038" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="51" parent="globals/AerobicDecouplingView" pc="268437048" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="53" parent="globals/AerobicDecouplingView" pc="268437069" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="54" parent="globals/AerobicDecouplingView" pc="268437087" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="55" parent="globals/AerobicDecouplingView" pc="268437107" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="59" parent="globals/AerobicDecouplingView" pc="268437130" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="60" parent="globals/AerobicDecouplingView" pc="268437153" symbol="compute"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="13" lineNum="15" parent="globals/AerobicDecouplingView" pc="268437156" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="13" lineNum="16" parent="globals/AerobicDecouplingView" pc="268437158" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="13" lineNum="17" parent="globals/AerobicDecouplingView" pc="268437176" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="13" lineNum="18" parent="globals/AerobicDecouplingView" pc="268437189" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="13" lineNum="25" parent="globals/AerobicDecouplingView" pc="268437242" symbol="initialize"/>
-        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="13" lineNum="27" parent="globals/AerobicDecouplingView" pc="268437276" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="55" parent="globals/AerobicDecouplingCalc" pc="268435594" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="56" parent="globals/AerobicDecouplingCalc" pc="268435598" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="57" parent="globals/AerobicDecouplingCalc" pc="268435608" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="59" parent="globals/AerobicDecouplingCalc" pc="268435611" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="61" parent="globals/AerobicDecouplingCalc" pc="268435618" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="64" parent="globals/AerobicDecouplingCalc" pc="268435624" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="65" parent="globals/AerobicDecouplingCalc" pc="268435632" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="68" parent="globals/AerobicDecouplingCalc" pc="268435652" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="71" parent="globals/AerobicDecouplingCalc" pc="268435672" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="66" parent="globals/AerobicDecouplingCalc" pc="268435695" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="67" parent="globals/AerobicDecouplingCalc" pc="268435705" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="69" parent="globals/AerobicDecouplingCalc" pc="268435708" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="70" parent="globals/AerobicDecouplingCalc" pc="268435718" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="72" parent="globals/AerobicDecouplingCalc" pc="268435721" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="75" parent="globals/AerobicDecouplingCalc" pc="268435728" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="77" parent="globals/AerobicDecouplingCalc" pc="268435735" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="80" parent="globals/AerobicDecouplingCalc" pc="268435741" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="82" parent="globals/AerobicDecouplingCalc" pc="268435782" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="85" parent="globals/AerobicDecouplingCalc" pc="268435802" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="90" parent="globals/AerobicDecouplingCalc" pc="268435808" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="92" parent="globals/AerobicDecouplingCalc" pc="268435821" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="94" parent="globals/AerobicDecouplingCalc" pc="268435834" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="96" parent="globals/AerobicDecouplingCalc" pc="268435867" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="97" parent="globals/AerobicDecouplingCalc" pc="268435893" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="98" parent="globals/AerobicDecouplingCalc" pc="268435919" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="100" parent="globals/AerobicDecouplingCalc" pc="268435946" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="102" parent="globals/AerobicDecouplingCalc" pc="268435959" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="106" parent="globals/AerobicDecouplingCalc" pc="268435972" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="109" parent="globals/AerobicDecouplingCalc" pc="268436009" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="115" parent="globals/AerobicDecouplingCalc" pc="268436040" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="117" parent="globals/AerobicDecouplingCalc" pc="268436047" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="119" parent="globals/AerobicDecouplingCalc" pc="268436060" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="122" parent="globals/AerobicDecouplingCalc" pc="268436087" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="124" parent="globals/AerobicDecouplingCalc" pc="268436107" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="125" parent="globals/AerobicDecouplingCalc" pc="268436133" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="126" parent="globals/AerobicDecouplingCalc" pc="268436160" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="128" parent="globals/AerobicDecouplingCalc" pc="268436186" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="130" parent="globals/AerobicDecouplingCalc" pc="268436199" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="134" parent="globals/AerobicDecouplingCalc" pc="268436212" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="138" parent="globals/AerobicDecouplingCalc" pc="268436249" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="142" parent="globals/AerobicDecouplingCalc" pc="268436280" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="144" parent="globals/AerobicDecouplingCalc" pc="268436309" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="147" parent="globals/AerobicDecouplingCalc" pc="268436315" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="152" parent="globals/AerobicDecouplingCalc" pc="268436344" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="155" parent="globals/AerobicDecouplingCalc" pc="268436357" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="160" parent="globals/AerobicDecouplingCalc" pc="268436395" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="161" parent="globals/AerobicDecouplingCalc" pc="268436408" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="165" parent="globals/AerobicDecouplingCalc" pc="268436455" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="168" parent="globals/AerobicDecouplingCalc" pc="268436480" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="169" parent="globals/AerobicDecouplingCalc" pc="268436493" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="171" parent="globals/AerobicDecouplingCalc" pc="268436512" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="175" parent="globals/AerobicDecouplingCalc" pc="268436540" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="183" parent="globals/AerobicDecouplingCalc" pc="268436577" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="184" parent="globals/AerobicDecouplingCalc" pc="268436590" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="194" parent="globals/AerobicDecouplingCalc" pc="268436652" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="195" parent="globals/AerobicDecouplingCalc" pc="268436672" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="2" lineNum="200" parent="globals/AerobicDecouplingCalc" pc="268436688" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="40" parent="globals/AerobicDecouplingCalc" pc="268436739" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="41" parent="globals/AerobicDecouplingCalc" pc="268436743" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="43" parent="globals/AerobicDecouplingCalc" pc="268436760" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="44" parent="globals/AerobicDecouplingCalc" pc="268436768" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="47" parent="globals/AerobicDecouplingCalc" pc="268436788" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="50" parent="globals/AerobicDecouplingCalc" pc="268436808" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="45" parent="globals/AerobicDecouplingCalc" pc="268436811" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="46" parent="globals/AerobicDecouplingCalc" pc="268436824" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="48" parent="globals/AerobicDecouplingCalc" pc="268436827" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="49" parent="globals/AerobicDecouplingCalc" pc="268436840" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingCalc.mc" id="3" lineNum="51" parent="globals/AerobicDecouplingCalc" pc="268436843" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="4" lineNum="6" parent="globals/AerobicDecouplingApp" pc="268436858" symbol="&lt;init&gt;"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="6" lineNum="25" parent="globals/AerobicDecouplingApp" pc="268436877" symbol="getInitialView"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="6" lineNum="26" parent="globals/AerobicDecouplingApp" pc="268436879" symbol="getInitialView"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="7" lineNum="8" parent="globals/AerobicDecouplingApp" pc="268436920" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="7" lineNum="9" parent="globals/AerobicDecouplingApp" pc="268436922" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="9" lineNum="31" parent="globals" pc="268436941" symbol="getApp"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingApp.mc" id="9" lineNum="32" parent="globals" pc="268436951" symbol="getApp"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\bin\\gen\\006-B4169-00\\source\\Rez.mcgen" id="10" lineNum="7" parent="globals/Rez" pc="268436967" symbol="&lt;init&gt;"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="11" lineNum="9" parent="globals/AerobicDecouplingView" pc="268436991" symbol="&lt;init&gt;"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="42" parent="globals/AerobicDecouplingView" pc="268437010" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="47" parent="globals/AerobicDecouplingView" pc="268437014" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="49" parent="globals/AerobicDecouplingView" pc="268437031" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="52" parent="globals/AerobicDecouplingView" pc="268437044" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="54" parent="globals/AerobicDecouplingView" pc="268437058" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="56" parent="globals/AerobicDecouplingView" pc="268437076" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="59" parent="globals/AerobicDecouplingView" pc="268437086" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="61" parent="globals/AerobicDecouplingView" pc="268437107" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="62" parent="globals/AerobicDecouplingView" pc="268437125" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="63" parent="globals/AerobicDecouplingView" pc="268437151" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="64" parent="globals/AerobicDecouplingView" pc="268437177" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="67" parent="globals/AerobicDecouplingView" pc="268437209" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="68" parent="globals/AerobicDecouplingView" pc="268437232" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="12" lineNum="72" parent="globals/AerobicDecouplingView" pc="268437255" symbol="compute"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="13" lineNum="17" parent="globals/AerobicDecouplingView" pc="268437258" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="13" lineNum="18" parent="globals/AerobicDecouplingView" pc="268437260" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="13" lineNum="19" parent="globals/AerobicDecouplingView" pc="268437278" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="13" lineNum="20" parent="globals/AerobicDecouplingView" pc="268437291" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="13" lineNum="26" parent="globals/AerobicDecouplingView" pc="268437344" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="13" lineNum="33" parent="globals/AerobicDecouplingView" pc="268437397" symbol="initialize"/>
+        <entry filename="E:\\connect iq\\AerobicDecoupling\\source\\AerobicDecouplingView.mc" id="13" lineNum="35" parent="globals/AerobicDecouplingView" pc="268437431" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry field="true" id="26" symbol="value30s"/>
         <entry field="true" id="17" symbol="baselineAerobicEfficiency"/>
-        <entry field="true" id="18" symbol="field"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="7" module="true" symbol="globals/Rez/Menus"/>
         <entry field="true" id="12" symbol="_calc"/>
         <entry field="true" id="16" symbol="aerobicEfficiency"/>
+        <entry field="true" id="20" symbol="maxAerobicDecoupling"/>
         <entry field="true" id="15" symbol="aerobicDecoupling"/>
         <entry field="true" id="25" symbol="timeDuration"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
@@ -124,7 +127,7 @@
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
         <entry field="true" id="21" symbol="meanHeartRate"/>
-        <entry field="true" id="19" symbol="heartRate30s"/>
+        <entry field="true" id="18" symbol="heartRate30s"/>
         <entry id="9" object="true" symbol="AerobicDecouplingApp"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="29" module="true" symbol="Menus"/>
@@ -148,6 +151,7 @@
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389780" module="true" symbol="FitContributor"/>
         <entry id="8388641" module="true" symbol="Math"/>
         <entry field="true" id="30" symbol="&lt;globals/AerobicDecouplingView/&lt;&gt;_activeActivity&gt;"/>
         <entry field="true" id="34" symbol="decoupling_label"/>
@@ -161,19 +165,19 @@
         <entry field="true" id="31" symbol="&lt;globals/AerobicDecouplingView/&lt;&gt;_ad&gt;"/>
         <entry field="true" id="24" symbol="normalisedValue"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="20" symbol="heartRate30sMean"/>
+        <entry field="true" id="19" symbol="heartRate30sMean"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268436674" name="info" stackId="1" startPc="268435594"/>
-        <entry endPc="268436674" name="currentHeartRate" stackId="2" startPc="268435598"/>
-        <entry endPc="268436674" name="currentValue" stackId="3" startPc="268435598"/>
-        <entry endPc="268435998" name="heartRate30sMean" stackId="4" startPc="268435878"/>
-        <entry endPc="268436238" name="value30sMean" stackId="5" startPc="268436092"/>
-        <entry endPc="268436238" name="value30sMeanTo4thPower" stackId="6" startPc="268436092"/>
-        <entry endPc="268436558" name="currentDecoupling" stackId="7" startPc="268436494"/>
-        <entry endPc="268436818" name="profile" stackId="1" startPc="268436679"/>
-        <entry arg="true" endPc="268437155" name="info" stackId="1" startPc="268436972"/>
-        <entry endPc="268437155" name="output" stackId="2" startPc="268436976"/>
+        <entry arg="true" endPc="268436738" name="info" stackId="1" startPc="268435594"/>
+        <entry endPc="268436738" name="currentHeartRate" stackId="2" startPc="268435598"/>
+        <entry endPc="268436738" name="currentValue" stackId="3" startPc="268435598"/>
+        <entry endPc="268436039" name="heartRate30sMean" stackId="4" startPc="268435919"/>
+        <entry endPc="268436279" name="value30sMean" stackId="5" startPc="268436133"/>
+        <entry endPc="268436279" name="value30sMeanTo4thPower" stackId="6" startPc="268436133"/>
+        <entry endPc="268436576" name="currentDecoupling" stackId="7" startPc="268436512"/>
+        <entry endPc="268436856" name="profile" stackId="1" startPc="268436743"/>
+        <entry arg="true" endPc="268437257" name="info" stackId="1" startPc="268437010"/>
+        <entry endPc="268437257" name="output" stackId="2" startPc="268437014"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -188,55 +192,55 @@
         <dataEntry label="globals/AerobicDecouplingApp" offset="349" parentId="globals" symbolId="AerobicDecouplingApp" type="class"/>
         <dataEntry label="globals/Rez" offset="420" parentId="globals" symbolId="Rez" type="module"/>
         <dataEntry label="globals/AerobicDecouplingView" offset="499" parentId="globals" symbolId="AerobicDecouplingView" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="578" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="617" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="648" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="679" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="710" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="773" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="586" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="625" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="656" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="687" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="718" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="781" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435593" name="&lt;init&gt;" parent="AerobicDecouplingCalc" startPc="268435457">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436674" name="compute" parent="AerobicDecouplingCalc" startPc="268435594">
+        <functionEntry accessMode="public" endPc="268436738" name="compute" parent="AerobicDecouplingCalc" startPc="268435594">
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436819" name="initialize" parent="AerobicDecouplingCalc" startPc="268436675">
+        <functionEntry accessMode="public" endPc="268436857" name="initialize" parent="AerobicDecouplingCalc" startPc="268436739">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436838" name="&lt;init&gt;" parent="AerobicDecouplingApp" startPc="268436820">
+        <functionEntry accessMode="public" endPc="268436876" name="&lt;init&gt;" parent="AerobicDecouplingApp" startPc="268436858">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onStart" parent="AerobicDecouplingApp">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436881" name="getInitialView" parent="AerobicDecouplingApp" startPc="268436839">
+        <functionEntry accessMode="public" endPc="268436919" name="getInitialView" parent="AerobicDecouplingApp" startPc="268436877">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436902" name="initialize" parent="AerobicDecouplingApp" startPc="268436882">
+        <functionEntry accessMode="public" endPc="268436940" name="initialize" parent="AerobicDecouplingApp" startPc="268436920">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onStop" parent="AerobicDecouplingApp">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436928" name="getApp" startPc="268436903">
+        <functionEntry accessMode="public" endPc="268436966" name="getApp" startPc="268436941">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436952" name="&lt;init&gt;" parent="Rez" startPc="268436929">
+        <functionEntry accessMode="public" endPc="268436990" name="&lt;init&gt;" parent="Rez" startPc="268436967">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436971" name="&lt;init&gt;" parent="AerobicDecouplingView" startPc="268436953">
+        <functionEntry accessMode="public" endPc="268437009" name="&lt;init&gt;" parent="AerobicDecouplingView" startPc="268436991">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437155" name="compute" parent="AerobicDecouplingView" startPc="268436972">
+        <functionEntry accessMode="public" endPc="268437257" name="compute" parent="AerobicDecouplingView" startPc="268437010">
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437286" name="initialize" parent="AerobicDecouplingView" startPc="268437156">
+        <functionEntry accessMode="public" endPc="268437441" name="initialize" parent="AerobicDecouplingView" startPc="268437258">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
